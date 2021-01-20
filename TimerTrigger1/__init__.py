@@ -18,7 +18,7 @@ def main(mytimer: func.TimerRequest) -> None:
     
     conn_str = "DefaultEndpointsProtocol=https;AccountName=yyyy;AccountKey=hhhh==;EndpointSuffix=core.windows.net"
     
-    queue_name="plantations"    
+    queue_name="outqueue1"    
     
     message = "EDNUpdateProcessRunning"
 
