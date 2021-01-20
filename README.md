@@ -1,7 +1,7 @@
 # Azure Timer-Trigger Write Message to Queue Storage
 Timer trigger lets you run a function on a schedule.
 
-The timer trigger bindings in which scheduled time is defined are described in the the function.json file. For instance, this timer trigger function is scheduled to run  11 05 UTC time.
+The timer trigger bindings in which scheduled time is defined are described in the the function.json file. For instance, this timer trigger function is scheduled to run daily at  11 05 UTC time.
 
 The actual Python function that uses the binding described in the function.json file is contained in the init.py file
 
